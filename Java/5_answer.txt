@@ -1,0 +1,17 @@
+	methodX1: 1  // This line will get printed because aX.methodX1(1) calling will	send 1 as the value into method 1 and then it will print it.
+
+methodX1:	   2  // The second object aax of the same class will call the method with 2 valu e and then it will print it. 
+
+methodX2: X@15db974   2  // The first object ax will call method 2 with 3 as its parameter and the print of this line is the hashcode of the object "this".
+
+    x1 3  // This output    will get generated as the value of x1 assigned is 3. 
+
+      o1 3  // This output will be the same as above one as the same value of i is assigned to o1 as well.
+
+methodX2:    X@6d06d69c  //  this is an object which will implicitly invoke toStrting() which will print the class name followed by hashcode of the object.
+ 
+    	     x1 4   // The second method will print this value as its parameter have 4 as value and it will assign that value to x1. 
+
+    o1 4   // this   output will get generated the same as o1 also contains the value of i.	 
+    
+	
